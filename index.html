@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <title>Formulario de colaboración</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+          <form action="#" method="post"></form>
+            <div class="col-sm-12 col-md-10 col-lg-8">
+                <div class="card">
+                    <div class="card-header">
+                      <h3>Formulario de colaboración</h2>
+                    </div>
+                    <div class="card-body">
+                      <div><h5>Datos personales</h5></div>
+                        <div class="row">
+                          <div class="col-sm-12 col-md-6 mb-2">
+                            
+                            <input type="text" class="form-control" name="Nombre" placeholder="Nombre">
+                            
+                          </div>
+                          <div class="col-sm-12 col-md-6 mb-2">
+                           
+                            <input type="text" class="form-control" name="Apellidos" placeholder="Apellidos">
+                          </div>
+                          <div class="col-sm-12 col-md-6 mb-2">
+                            <div class="input-group">
+                              <span class="input-group-text"><select class=" bg-transparent border border-0"><option value="NIF">NIF</option><option value="NIE">NIE</option> </select></span>
+                              <input type="text" class="form-control" name="documentType">
+                            </div>                            
+                          </div>
+                          <div class="col-sm-12 col-md-6 mb-2">
+                            <div class="input-group">
+                              <div class="input-group-text"><i class="fa-solid fa-phone" style="color: #000000;"></i></div>                              
+                              <input type="tel" class="form-control w-50" name="phone">
+                            </div>
+                          </div>
+                          <div class="col-12 mb-2">                            
+                            <input type="text" class="form-control" name="direccion" placeholder="Dirección">
+                          </div>                          
+                          <div class="col-sm-12 col-md-6 mb-2">                            
+                            <input type="text" class="form-control" name="ciudad" placeholder="Ciudad">
+                          </div>
+                          <div class="col-md-4">                            
+                            <select name="provincia" class="form-select" placeholder="provincia">                            
+                            <option value="SC">Santa Cruz de Tenerife</option>
+                            <option value="GC">Las Palmas de Gran Canaria</option>                            
+                            </select>
+                            <div class="form-text ms-2 mb-2">
+                              Selecciona una provincia
+                            </div>
+                          </div>
+                          <div class="col-md-2 mb-2">                            
+                            <input type="number" class="form-control" name="codigoPostal" placeholder="C.P.">                                                
+                          </div>
+                          <div class="col-12 mb-2">
+                            <input type="email" class="form-control" name="email" placeholder="Correo electrónico">
+                            <div class="form-text">
+                              <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" name="noEmail">
+                                <label class="form-check-label" for="noEmail">No deseo recibir comunicaciones a mi correo</label>
+                              </div> 
+                            </div>
+                          </div>                                                                                                                        
+                        </div>
+                        <div class="row border-top">
+                          <h5 class="mt-2">Detalles de pago</h5>
+
+                        </div>
+                    <div class="card-footer text-body-secondary">
+                      2 days ago
+                    </div>
+                  </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
